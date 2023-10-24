@@ -1,0 +1,25 @@
+<?xml version='1.0' ?>
+<graphml xmlns='http://graphml.graphdrawing.org/xmlns'>
+  <key id='name'    for='node' attr.name='name'    attr.type='string'></key>
+  <key id='rel'     for='edge' attr.name='rel'    attr.type='string'></key>
+  <key id='labelV'  for='node' attr.name='labelV'  attr.type='string'></key>
+  <key id='labelE'  for='edge' attr.name='labelE'  attr.type='string'></key>
+  <graph id='names' edgedefault='directed'>
+    <node id='one'>
+      <data key='labelV'>person</data>
+      <data key='name'>mike</data>
+    </node>
+    <node id='two'>
+      <data key='labelV'>person</data>
+      <data key='name'>jerry</data>
+    </node>
+    <node id='three'>
+      <data key='labelV'>person</data>
+      <data key='name'>nel</data>
+    </node>
+    <edge id='e1' source='one' target='two'>
+      <data key='labelE'>related</data>
+      <data key='rel'>friend</data>
+    </edge>
+  </graph>
+</graphml>
